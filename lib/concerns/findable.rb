@@ -4,7 +4,7 @@ module Findable
   end
 
   def to_param
-    self.name.downcase.gsub(' ', '-')
+    name.downcase.gsub(' ', '-')
   end
 
 end
